@@ -42,3 +42,77 @@ Data Cleaning & Transformation
 Curated Student Data
        ↓
 Power BI Dashboard
+```
+## Dataset
+
+The dataset contains student performance information such as:
+
+- Student ID
+- Gender
+- Age
+- Study Hours
+- Attendance
+- Assignment Score
+- Midterm Score
+- Final Score
+- Passed
+- Performance Level
+
+The original raw dataset is stored in the `data/raw` folder.
+
+## ETL Process
+
+### 1. Extract
+
+The original student dataset was collected and stored as a CSV file. The raw data was uploaded to Azure Blob Storage for processing.
+
+### 2. Transform
+
+Azure Data Factory was used to clean and transform the student data.
+
+The transformation process included data cleaning, filtering, and creating derived information required for analysis.
+
+### 3. Load
+
+The transformed dataset was saved as curated data and used for reporting and visualization.
+
+The curated dataset is stored in the `data/curated` folder.
+
+## Power BI Dashboard
+
+Power BI was used to visualize the transformed student data.
+
+The dashboard provides insights into student performance, attendance, study hours, scores, passing results, and performance levels.
+
+## Repository Structure
+
+```text
+azure-etl-capstone10/
+│
+├── data/
+│   ├── raw/
+│   │   └── 1student_data.csv
+│   │
+│   └── curated/
+│       └── azure project file cleaned.csv
+│
+├── docs/
+│   └── project-documentation.md
+│
+├── screenshots/
+│   └── .gitkeep
+│
+└── README.md
+```
+## Project Outcome
+
+The project demonstrates how raw student data can be transformed into useful analytical information using an Azure-based ETL pipeline.
+
+The final curated data was connected to Power BI to create visualizations and support analysis of student performance.
+
+## Author
+
+**Aysha68**
+
+Data Engineering / Diploma Program
+
