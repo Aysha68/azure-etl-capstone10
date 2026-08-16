@@ -1,0 +1,11 @@
+﻿student_id,gender,age,study_hours,attendance,assignment,midterm_score,final_score,passed
+S001,Female,20,12,92,85,78,88,   Yes
+S002,Male,22,6,75,65,62,60,   Yes
+S003,Female,19,15,96,92,90,94,   Yes
+S004,Male,21,4,61,50,48,45,   No
+S005,Female,20,10,88,82,80,85,   Yes
+S006,Male,23,5,70,60,58,55,    No
+S007,Female,21,14,94,90,88,92,   Yes
+S008,Male,20,8,82,72,70,75,    Yes
+S009,Female,19,3,65,55,52,50,    No
+S010,Male,22,11,90,85,82,87,    Yes
